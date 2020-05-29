@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+}
+#logo{
+    border-radius: 75px;
+    border: 3px solid #0bb397;
+    margin-left: 30px;
+    margin-top: 10px;
+    position: relative;
+
+}
+.content{
+    background-color: #b0850e;
+    width: 100%;
+}
+#container{
+
+    text-align: center;
+}
+#introduce{
+    width: 500px;
+    height: 500px;
+    background-color: #e3e0a6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 30px;
+}
+#white{
+    height: 500px;
+    background-color: #fff;
+}
+#footer{
+    height: 500px;
+    background-color: #0bb397;
+}

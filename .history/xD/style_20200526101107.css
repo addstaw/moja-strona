@@ -1,0 +1,8 @@
+#a, #b, #c, #wynik{
+    border-bottom: 5px solid turquoise;
+    border-radius: 10px;
+}
+#a:hover, #b:hover, #c:hover, #wynik:hover, button:hover, #czysc:hover{
+    
+    background-color: whitesmoke;
+}

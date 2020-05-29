@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    background-image: url("png/page2.png");
+ 
+}
+#header{
+    background-image: url("page2.png");
+}
+
+#img{
+    border-radius: 75px;
+    border: 3px solid #0bb397;
+    margin-left: 30px;
+    margin-top: 10px;
+}

@@ -1,0 +1,9 @@
+#a, #b, #c, #wynik{
+    border-bottom: 5px solid turquoise;
+    border-radius: 10px;
+}
+#a, #b, #c, #wynik:hover{
+    border-bottom: 5px solid turquoise;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}

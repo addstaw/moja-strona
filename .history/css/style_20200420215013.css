@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+}
+#logo{
+    border-radius: 75px;
+    border: 3px solid #0bb397;
+    margin-left: 30px;
+    margin-top: 10px;
+    position: initial;
+}
+.content{
+    background-color: #b0850e;
+    height: 1500px;
+    width: 1900px;
+}
+#introduce{
+    width: 500px;
+    height: 500px;
+    background-color: ivory;
+}

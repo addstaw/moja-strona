@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+#header{
+    background-color: peru;
+    width: 200px;
+}
+#logo{
+    font-size: 120px;
+    color:#0bb397;
+     font-family: 'Ceviche One', cursive;
+     
+  
+}
+#img{
+    
+}

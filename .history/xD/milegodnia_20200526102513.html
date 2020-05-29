@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed');
+
+            * {
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-size: 10pt;
+            }
+            input[type=text] {
+                width: 100px;
+                text-align: center;
+            }
+            table {
+                margin: auto;
+            }
+    
+        </style>
+    </head>
+
+    <body>
+        <table id="fTest">
+            <tr>
+                <th>kontrolka</th>
+                <th>wartość</th>
+            </tr>
+            <tr>
+                <td>
+                    <input id="suwak" type="range" min="-10" max=10 value="0" onchange="suwakZmiana()">
+                </td>
+                <td>
+                    <input id="a" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="kolor" type="color" value="0" onchange="kolorZmiana()">
+                </td>
+                <td>
+                    <input id="b" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="data" type="date" onchange="dataZmiana()">
+                </td>
+                <td>
+                    <input id="c" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="time" type="time" onchange="timeZmiana()">
+                </td>
+                <td>
+                    <input id="d" type="text">
+                </td>
+            </tr>
+        </table>
+
+        <script type="application/javascript">
+          
+            function suwakZmiana(){
+                document.getElementById("a").value = document.getElementById("suwak").value;
+            }
+         
+            function kolorZmiana(){
+                document.getElementById("b").value = document.getElementById("kolor").value;
+            }
+           
+            function dataZmiana(){
+                document.getElementById("c").value = document.getElementById("data").value;
+            }
+            function timeZmiana(){
+                document.getElementById("d").value = document.getElementById("time").value;
+            }
+            
+        </script>
+
+    </body>
+
+</html>
+</html>

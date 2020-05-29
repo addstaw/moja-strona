@@ -1,0 +1,17 @@
+#a, #b, #c, #wynik{
+    border-bottom: 5px solid turquoise;
+    border-radius: 10px;
+}
+#a:hover, #b:hover, #c:hover, #wynik:hover {
+    
+    background-color: whitesmoke;
+}
+#rozwiaz, #czysc{
+    color: white;
+    background-color: turquoise;
+    border-radius: 5px;
+    border: 5px solid turquoise;
+}
+#rozwiaz:hover, #czysc:hover{
+
+}

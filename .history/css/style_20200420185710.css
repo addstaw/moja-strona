@@ -1,0 +1,13 @@
+#header{
+    background-color:#0bb397;
+    margin: none   ;
+    height: 50px;
+}
+#logo{
+    height: 50px;
+    display: inline;
+}
+header {
+    display: flex;
+    justify-content: center;
+  }

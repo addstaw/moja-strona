@@ -1,0 +1,22 @@
+
+        @font-face
+
+        {
+        
+        font-family: CevicheOne;
+        
+        src:url(Ceviche_One/CevicheOne-Regular.ttf);
+        
+        }
+#header{
+    
+}
+#logo{
+    font-size: 100px;
+    color:#0bb397;
+     font-family: 'Ceviche One', cursive;
+}
+header {
+    display: flex;
+    justify-content: center;
+  }

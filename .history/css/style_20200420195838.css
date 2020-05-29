@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+#header{
+   
+    width: 520px;
+    border-radius: 75px;
+    border: 2px solid
+}
+#logo{
+    margin-left: 20px;
+    font-size: 120px;
+    color:#0bb397;
+     font-family: 'Ceviche One', cursive;
+     
+  
+}
+#img{
+    border: 2px solid
+}

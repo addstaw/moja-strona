@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+#logo{
+    font-size: 120px;
+    color:#0bb397;
+     font-family: 'Ceviche One', cursive;
+     display: inline-block
+     margin-top: 150px;
+}
+#img{
+    margin-left: 200px;
+    margin-top: 200px;
+    display: inline-block
+}
